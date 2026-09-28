@@ -20,3 +20,6 @@ Open `index.html` in any modern browser.
 3. Mark it completed.
 4. Filter by Pending/Completed.
 5. Delete the task.
+
+##screenshot
+<img width="1417" height="747" alt="Screenshot 2026-09-28 231806" src="https://github.com/user-attachments/assets/79ddd7ac-e023-4b35-828f-99881d58e33e" />
