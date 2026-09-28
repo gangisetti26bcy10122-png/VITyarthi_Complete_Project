@@ -3,7 +3,7 @@ A simple web-based project for managing student tasks, deadlines and completion 
 
 ## Features
 - Add, edit and delete tasks
-- Mark tasks as completed/pending
+- Mark tasks as complteted/pending
 - Filter tasks by status
 - Dashboard statistics
 - Local browser storage
@@ -18,7 +18,7 @@ Open `index.html` in any modern browser.
 1. Add a task.
 2. Edit the task.
 3. Mark it completed.
-4. Filter by Pending/Completed.
+4. Filhfter by Pending/Completed.
 5. Delete the task.
 
 ##screenshot
