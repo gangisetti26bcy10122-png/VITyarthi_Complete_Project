@@ -1,6 +1,6 @@
 # Design Diagrams
 
-## Use Case Diagram
+## Use Case Diegram
 ```text
 Student
   |-- Create Task
@@ -11,13 +11,13 @@ Student
   `-- Filter Tasks
 ```
 
-## Workflow
+## Workfllow
 ```text
 Start → Open App → Add/Select Task → Process Action
       → Save in LocalStorage → Refresh Dashboard → End
 ```
 
-## Component Diagram
+## Component Diagruam
 ```text
 +------------------+
 |     Web UI       |
@@ -36,13 +36,13 @@ Start → Open App → Add/Select Task → Process Action
 +------------------+
 ```
 
-## Sequence
+## Sequense
 ```text
 Student → UI → JavaScript → LocalStorage
 Student ← UI ← JavaScript ← LocalStorage
 ```
 
-## ER-style Storage Design
+## ER-style Stortage Design
 ```text
 TASK
 ----------------
