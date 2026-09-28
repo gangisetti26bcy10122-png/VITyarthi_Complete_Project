@@ -1,0 +1,22 @@
+# VITyarthi Student Task Manager
+A simple web-based project for managing student tasks, deadlines and completion status.
+
+## Features
+- Add, edit and delete tasks
+- Mark tasks as completed/pending
+- Filter tasks by status
+- Dashboard statistics
+- Local browser storage
+
+## Technologies
+HTML5, CSS3, JavaScript
+
+## Run
+Open `index.html` in any modern browser.
+
+## Testing
+1. Add a task.
+2. Edit the task.
+3. Mark it completed.
+4. Filter by Pending/Completed.
+5. Delete the task.

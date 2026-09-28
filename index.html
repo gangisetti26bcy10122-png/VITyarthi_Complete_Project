@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>VITyarthi Student Task Manager</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><h1>VITyarthi Student Task Manager</h1><p>Manage academic tasks in one place</p></header>
+<main>
+<section class="dashboard">
+<div><b id="total">0</b><span>Total Tasks</span></div>
+<div><b id="pending">0</b><span>Pending</span></div>
+<div><b id="completed">0</b><span>Completed</span></div>
+</section>
+
+<section class="card">
+<h2>Add / Update Task</h2>
+<form id="taskForm">
+<input type="hidden" id="taskId">
+<input id="title" placeholder="Task title" required>
+<input id="subject" placeholder="Subject" required>
+<input id="deadline" type="date" required>
+<select id="priority"><option>Low</option><option selected>Medium</option><option>High</option></select>
+<button type="submit">Save Task</button>
+<button type="button" id="cancel" class="secondary">Cancel</button>
+</form>
+</section>
+
+<section class="card">
+<div class="toolbar">
+<h2>Tasks</h2>
+<select id="filter"><option value="all">All</option><option value="pending">Pending</option><option value="completed">Completed</option></select>
+</div>
+<div id="taskList"></div>
+</section>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>

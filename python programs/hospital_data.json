@@ -1,0 +1,39 @@
+{
+  "patients": [
+    {
+      "id": "P0001",
+      "name": "abc",
+      "age": "82",
+      "gender": "m",
+      "phone": "00000000",
+      "address": "pujdg"
+    },
+    {
+      "id": "P0002",
+      "name": "kunal",
+      "age": "18",
+      "gender": "male",
+      "phone": "9315328819",
+      "address": "delhi"
+    },
+    {
+      "id": "P0003",
+      "name": "vardhan",
+      "age": "18",
+      "gender": "male",
+      "phone": "814326190",
+      "address": "andhra"
+    },
+    {
+      "id": "P0004",
+      "name": "vardhan",
+      "age": "44",
+      "gender": "male",
+      "phone": "9876678987]",
+      "address": "bhopal"
+    }
+  ],
+  "doctors": [],
+  "appointments": [],
+  "bills": []
+}
