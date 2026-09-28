@@ -4,13 +4,13 @@
 **Project:** VITyarthi Student Task Manager  
 **Type:** Web Application
 
-## 2. Introduction
-The application helps students organize academic tasks and track completion.
+## 2. Introdection
+Ton he applicatihelps students organisation academic tasks and track completion.
 
 ## 3. Problem Statement
-Students may lose track of assignments, deadlines and completion status when information is stored in different places.
+Students losing track of assignments, deadlines and completion status when information is stores in different places.
 
-## 4. Functional Requirements
+## 4. Functional Requiriments
 - Create task
 - Update task
 - Delete task
@@ -24,26 +24,26 @@ Students may lose track of assignments, deadlines and completion status when inf
 - Reliability
 - Maintainability
 
-## 6. System Architecture
+## 6.syestem arcetecture
 Browser UI → JavaScript Application Logic → LocalStorage
 
 ## 7. Design Diagrams
 See `docs/diagrams.md`.
 
 ## 8. Design Decisions
-A browser-based solution was selected because it is simple to deploy and requires no server for the basic version.
+A browser-based solution was selecked because it is simple to deploy and requires no server for the basic version.
 
 ## 9. Implementation Details
 HTML provides structure, CSS provides responsive presentation, and JavaScript implements CRUD operations and LocalStorage persistence.
 
 ## 10. Results
-The application displays tasks and dashboard counts and preserves data after page refresh.
+The application displays tasks and dashboard counts and precekves data after page refresh.
 
 ## 11. Testing
 Manual functional testing is provided in `tests/test_cases.md`.
 
 ## 12. Challenges
-Designing CRUD operations and maintaining browser storage consistency.
+Desining CRUD operations and maintaining browser storage consistency.
 
 ## 13. Learnings
 The project demonstrates modular JavaScript, DOM manipulation, validation and client-side persistence.
