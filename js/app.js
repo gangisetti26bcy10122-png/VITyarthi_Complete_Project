@@ -1,9 +1,10 @@
 const KEY='vityarthi_tasks';
-let tasks=JSON.parse(localStorage.getItem(KEY)||'[]');
+let tasks=JSON.parse(localStorage.getItem(KEY)||'[]');  
 
 const $=id=>document.getElementById(id);
 function save(){localStorage.setItem(KEY,JSON.stringify(tasks));render();}
 function resetForm(){$('taskForm').reset();$('taskId').value='';$('cancel').style.display='none';}
+
 function render(){
  const filter=$('filter').value;
  const shown=tasks.filter(t=>filter==='all'||(filter==='completed'?t.completed:!t.completed));
